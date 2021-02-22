@@ -1,0 +1,141 @@
+title:Basics
+---
+author:James Carlson
+---
+date:7 Feb 2021
+---
+description:You will learn how to do simple math formuluas: supscripts, superscripts, series and sums, integrals, derivatives, etc.
+---
+
+title:Symbols
+---
+id:1
+---
+target: $\alpha + \beta + \gamma = \pi$
+---
+hint:
+---
+comment: Write source code for the formula above. Enclose it in dollar
+signs: \dollar MATH HERE \dollar. Use \bs{alpha} for $\alpha$, and so on.
+---
+
+title:Integrals
+---
+id:1.1
+---
+target: $$\int x dx$$
+---
+hint:
+---
+comment: Now write code for the integral above. You will need \code{\bs{int}} for $\int$.  Snippets of LaTeX code like \code{\bs{int}}  are called \italic{macros}.
+
+This time, put your LaTeX code betwen double dollar signs: \dollar\dollar MATH HERE \dollar\dollar.  This is \italic{display math mode}.
+---
+
+title:Spacing
+---
+id:1.2
+---
+target: $$\int x\ dx$$
+---
+hint:
+---
+comment: Sometimes you need to adjust the spacing.  If you put \code{\bs{space}}
+between the \code{x} and the \code{dx}, the formula will look better. You can also put a backslash followed by a space.
+---
+
+title:Superscripts
+---
+id:2
+---
+target:Pythagoras said that $ a^2 + b^2 = c^2 $
+---
+hint:
+---
+comment:Use \code{^} for superscripts, e.g, \code{x^2} for $x^2$. Notice the form: ordinary text, with the mathematics between dollar signs. This is \italic{inline math mode} once again.
+---
+
+title:Superscripts and Integrals
+---
+id:2.1
+---
+target:$$
+\int x^2 dx
+$$
+---
+hint:
+---
+comment:You know what to do here!  Combine what you know about symbols
+with what you know about superscripts. This is \italic{display math mode} once again.
+---
+
+
+title:Fractions
+---
+id:2.2
+---
+target:$$
+\int x^2 dx = \frac{x^3}{3} + C
+$$
+---
+hint:
+---
+comment: You will need to use the \code{\bs{frac}} macro.  It works
+like this: \code{\bs{frac}\texarg{numerator}\texarg{denomianator}}. If
+you don't like the looks of the result, try putting the macro \code{\bs{small}} just before the \code{\bs{frac}}.
+---
+
+title:Derivatives
+---
+id:2.3
+---
+target:$$
+\frac{dy}{dx} = y
+$$
+---
+hint:
+---
+comment: You can use fractions to make derivatives.
+---
+
+title: Second derivatives
+---
+id:2.3
+---
+target:$$
+\frac{d^2y}{d^2x} = -k y
+$$
+---
+hint:
+---
+comment: You can use fractions and superscripts to make second derivatives.
+---
+
+title: Partial derivatives
+---
+id:2.4
+---
+target:$$
+\frac{\partial u}{\partial t} = \frac{\partial u}{\partial x} 
+$$
+---
+hint:
+---
+comment: Here you need to know that \code{\bs{partial}} makes this: $\partial$.
+---
+
+
+title:On and on
+---
+id:3.1
+---
+target:$$
+a_1, a_2, a_3, \ldots
+$$
+---
+hint:Use \code{_} for subscripts, e.g., \code{a_1} for $a_1$.
+---
+comment:The macro \code{\ldots} puts three dots along the baseline. A
+related macro is \code{\bs{cdots}}, which puts dots centere in the line, above the baseline.
+---
+
