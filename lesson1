@@ -4,7 +4,10 @@ author:James Carlson
 ---
 date:22 Feb 2021
 ---
-description:You will learn how to do simple math formuluas: supscripts, superscripts, series and sums, integrals, derivatives, etc.
+description:You will learn how to do simple math formuluas: symbols, superscripts, fractions, square roots, and derivatives.
+$$
+\frac{\sqrt{2 + \sqrt 3}}{\sqrt 2 + \sqrt 5||
+$$
 ---
 
 title:Symbols
