@@ -1,0 +1,27 @@
+title:Simple formulas
+---
+author:James Carlson
+---
+date:22 Feb 2021
+---
+description:You will learn how to do simple math formuluas: supscripts, superscripts, series and sums, integrals, derivatives, etc.
+---
+
+title:Symbols
+---
+id:2
+---
+target: The sum of interior angles: $\alpha + \beta + \gamma = \pi$
+---
+comment: Write source code for the formula above. Enclose it in dollar
+signs: \dollar MATH HERE \dollar. Use \bs{alpha} for $\alpha$, and so on.
+---
+
+title:Polynomials
+---
+id:1
+---
+target: $p(x) = ax^3 + bx^2 + cx + d$
+---
+comment: Use a caret (^) for superscripts, e.g., \code{a^5} for $a^5$.
+---
