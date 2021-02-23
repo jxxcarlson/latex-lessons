@@ -27,7 +27,7 @@ target: $p(x) = ax^3 + bx^2 + cx + d$
 ---
 hint:
 ---
-comment: Use a caret (^) for superscripts.
+comment: Use a caret (^) for superscripts, e.g., \code{a^5} for $a^5$.
 ---
 
 title:Negative exponents
