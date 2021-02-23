@@ -1,4 +1,4 @@
-title:Basics
+title:Simple formulas
 ---
 author:James Carlson
 ---
@@ -19,29 +19,27 @@ comment: Write source code for the formula above. Enclose it in dollar
 signs: \dollar MATH HERE \dollar. Use \bs{alpha} for $\alpha$, and so on.
 ---
 
-title:Integrals
+title:Polynomials
 ---
-id:1.1
+id:2
 ---
-target: $$\int x dx$$
----
-hint:
----
-comment: Now write code for the integral above. You will need \code{\bs{int}} for $\int$.  Snippets of LaTeX code like \code{\bs{int}}  are called \italic{macros}.
-
-This time, put your LaTeX code betwen double dollar signs: \dollar\dollar MATH HERE \dollar\dollar.  This is \italic{display math mode}.
----
-
-title:Spacing
----
-id:1.2
----
-target: $$\int x\ dx$$
+target: $p(x) = ax^3 + bx^2 + cx + d$
 ---
 hint:
 ---
-comment: Sometimes you need to adjust the spacing.  If you put \code{\bs{space}}
-between the \code{x} and the \code{dx}, the formula will look better. You can also put a backslash followed by a space.
+comment: Use a caret (^) for superscripts.
+---
+
+title:Negativ exponents
+---
+id:3
+---
+target: $R(x) = x^2 + x + x^{-1} + x^{-2} + x^{-3}
+---
+hint:
+---
+comment: Enclose an exponent like \code{-1} in curly braces:
+\code{x^{-1}} for $x^{-1}$.
 ---
 
 title:Superscripts
