@@ -49,7 +49,7 @@ target: This is radical: $1 + \sqrt 3 + \sqrt 5$
 ---
 hint:
 ---
-comment:Use \code{\bs{sqrt}} for square roots, e.g., \code{\bs{sqrt} 2} for $\sqrt 2$.
+comment:Use \code{\bs{sqrt}} for square roots, e.g., \bs{sqrt} 2 for $\sqrt 2$.
 ---
 
 title: More complex radical expressions
@@ -62,7 +62,7 @@ $$
 ---
 hint:
 ---
-comment: You will need to group things in curly braces for this one, like you did with negative exponents.  This time we use \italic{display math mode}: doubble dollar signs instead of single ones: \dollar\dollar MATH STUFF \dollar\dollar.
+comment: You will need to group things in curly braces for this one, like you did with negative exponents.  This time we use \italic{display math mode}: double dollar signs instead of single ones: \dollar\dollar MATH STUFF \dollar\dollar.
 ---
 
 
@@ -89,7 +89,7 @@ $$
 ---
 hint:
 ---
-comment: Use \code{\bs{frac}} to make derivatives.
+comment: Another use for \code{\bs{frac}}: make derivatives.
 ---
 
 title: Second derivatives
@@ -119,7 +119,7 @@ comment: Here you need to know that \code{\bs{partial}} makes this: $\partial$.
 ---
 
 
-title:On and on
+title:Poisson's equation
 ---
 id:10
 ---
