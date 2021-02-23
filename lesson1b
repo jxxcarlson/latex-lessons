@@ -1,0 +1,7 @@
+format: latex-simple2
+header:
+  title: Problem set 1
+  author: James Carlson
+  contact: jxxcarlson@gmail.com
+  date: February 23, 2021
+  description: Superscripts, subscripts, sums, and integrals
