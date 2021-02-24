@@ -10,7 +10,7 @@ problems:
   - a^2 + b^2 = c^2
   - x^3 - 2x^2 + x + 1
   - 1 + x + x^2 + x^3 + \cdots
-  - "\\sum x^n"
+  - "\sum x^n"
   - \sum_0^5 x^n
   - \sum_{n=0}^5 x^n
   - \sum_{n=1}^{10} x^n
