@@ -6,7 +6,7 @@ header:
   contact: jxxcarlson@gmail.com
   date: February 23, 2021
   description: > In this lesson, you will learn how to do simple math formulas.
-                 $$ \\int_{-\\infty}^\infty e^{-x^2} dx = \\pi $$
+                 $ \\int_{-\\infty}^\infty e^{-x^2} dx = \\pi $
 problems:
   - item:
       title: Sum of the interior angles
