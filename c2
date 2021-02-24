@@ -17,7 +17,7 @@ problems:
       id: "1.1"
       target: "$$ f(\\theta) = \\sin \\theta + \\sin 2\\theta + \\sin 3\\theta $$"
       comment: "Use \\code{\\bs{sin}} for the sine function"
- - item:
+  - item:
       title: Addition formula
       id: "1.2"
       target: "$$ \\sin(\\theta + \\phi) = \\sin\\theta \\cos\\phi + \\cos\\theta\\sin\\phi $$"
