@@ -6,7 +6,6 @@ header:
   contact: jxxcarlson@gmail.com
   date: February 23, 2021
   description: In this lesson, you will learn how to do simple math formulas: polynomial, trig identities, series, and derivatives.
-                 
 problems:
   - item:
       title: Sum of the interior angles
