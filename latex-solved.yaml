@@ -1,0 +1,21 @@
+--
+format: latex-solved
+header:
+  title: Basic Algebra
+  author: James Carlson
+  contact: jxxcarlson@gmail.com
+  date: February 23, 2021
+  description: Basic Algebra
+problems:
+  - item:
+      problem: "Solve $2x + 1 = 5$."
+      solution: "$x = 2$"
+  - item:
+      problem: "Solve $x^2 + x - 6 = 0$."
+      solution: "$x = -2, 3$"
+  - item:
+      problem: "Solve $x^2 + x - 7 = 0$."
+      solution: "$x = \\frac{-1 \\pm \\sqrt{29}}{2}$"
+  - item:
+      problem: "Solve $2x + 3y = 1, x - 2y = 5$."
+      solution: "$x = -9/7, y = 17/7$"
